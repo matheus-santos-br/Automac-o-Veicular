@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="teste.js"></script>
+    <link href="teste.css" rel="stylesheet">
+
+    <title>Multimedia</title>
+
+</head>
+
+<body>
+
+    <section class="container-section">
+
+        <div class="header-icons">
+            <time>19:40</time>
+        </div>
+
+        <input class="back-button" id="buttonReset" type="button" value="">
+    
+        <div class="container-grid-buttons">
+            
+            <input class="lamp-button" id="btnLamp" type="button" value="">
+            <input class="gate-open-button" id="btnPortao1" type="button" value="" onclick="metodoPortao('#btnPortao1', '#txtPortao1', '1', 'Portão 1')">
+            <input class="gate-open-button" id="btnPortao2" type="button" value="" onclick="metodoPortao('#btnPortao2', '#txtPortao2', '3', 'Portão 2')">
+            
+        </div>
+    
+        <div class="container-grid-text">
+            <p id="txtLamp">Lâmpada Garagem</p>
+            <p id="txtPortao1">Portão 1</p>
+            <p id="txtPortao2">Portão 2</p> 
+        </div>
+
+    </section>
+
+</body>
+
+</html>

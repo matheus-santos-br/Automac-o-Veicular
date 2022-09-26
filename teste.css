@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+:root {
+  --primary-shadow-1: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 30px 0 rgba(0, 0, 0, 0.1);
+  --primary-shadow-2: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.0);
+  --primary-shadow-3: 0 4px 8px 0 #201d2b, 0 6px 20px 0 #201d2b;
+  --background-color: #2F3542;
+  --card-grid: #2F3542;
+  --font-color: #A4B2D3;
+  --back-button: #5352ED;
+  --branco: #FFFFFF;
+}
+
+body {
+  text-decoration: none;
+  background: #1E1E1E;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: var(--font-color);
+  font-weight: 400;
+}
+
+.container-section {
+  display: grid;
+  padding: 20px;
+  margin: 30px;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+  background: var(--card-grid);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-grid-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  margin: 30px;
+  padding: 30px;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  border-radius: 5px;
+  grid-gap: 100px;
+  background-color: #5352ED;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-grid-text {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  margin: 0 0 0 0px;
+  padding: 0 0 0 10px;
+  grid-gap: 100px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.header-icons {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: var(--font-color);
+  background-image: url("assets/wifi_battery.png");
+  background-size: 90px 19px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.back-button {
+  display: inline-flex;
+  width: 45px;
+  height: 45px;
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: center;
+  padding: 15px;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid var(--back-button);
+  margin: 0 0 0 0;
+  float: right;
+  border-radius: 50%;
+  transition: all 0.2s ease-out;
+  background-color: var(--back-button);
+  background-image: url("assets/back.png");
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.back-button:hover {
+  transition: all 0.2s ease-in;
+  background-color: #3e3eaa;
+}
+
+.lamp-button {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  justify-content: center;
+  padding: 50px;
+  border: 5px solid #f5ecd1;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.2s ease-out;
+  background-color: #ffeaa7;
+  background-image: url("assets/lamp.png");
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lamp-button:hover {
+  transition: all 0.2s ease-in;
+  background-color: #fdde77;
+}
+
+.gate-open-button {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  justify-content: center;
+  padding: 50px;
+  border: 5px solid #fad1d1;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #fff;
+  transition: all 0.2s ease-out;
+  background-color: #f39191;
+  background-image: url("assets/gate_open.png");
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.gate-open-button:hover {
+  transition: all 0.2s ease-in;
+  background-color: #fa7979;
+}
+
+/* .gate-closing-button {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  justify-content: center;
+  padding: 50px;
+  border: 5px solid #fad1d1;
+  outline: none;
+  cursor: not-allowed;
+  border-radius: 20px;
+  color: #fff;
+  transition: all 0.2s ease-out;
+  background-color: #f39191;
+  background-image: url("assets/gate_closing.png");
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.gate-closing-button:hover {
+  transition: all 0.2s ease-in;
+  background-color: #fa7979;
+} */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #BBBBBB;
+}
