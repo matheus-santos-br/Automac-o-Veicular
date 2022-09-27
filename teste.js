@@ -6,8 +6,7 @@ $(document).ready(function() {
     function(data){
 
         if(!(data == "Sucesso")){
-            // window.location.href = 'https://claudiojrsx.github.io/card-automation/index.html';
-            window.location.href = 'C:\\TrabMatheus\\card-automation-main\\card-automation-main\\index.html';
+            window.location.href = 'https://matheus-santos-br.github.io/AutomacaoVeicular/';
         }
     });
 });
@@ -91,9 +90,6 @@ $(document).ready(function(){
         
         function(){
 
-                // $("#btnPortaoAbre").prop("disabled",false);
-                // $("#btnPortaoFecha").prop("disabled",true);
-
                 $("#txtLamp").css("color","#ff4757");
                 $("#txtLamp").html("Lâmpada apagada");
 
@@ -104,8 +100,7 @@ $(document).ready(function(){
                 $("#txtPortao2").css("color","#ff4757");
                 $("#txtPortao2").html("Portão 2 fechado");
 
-                // window.location.href = 'https://claudiojrsx.github.io/card-automation/index.html';
-                window.location.href = 'C:\\TrabMatheus\\card-automation-main\\card-automation-main\\index.html';
+                window.location.href = 'https://matheus-santos-br.github.io/AutomacaoVeicular/';
             });
     });
     });

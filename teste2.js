@@ -31,8 +31,7 @@ $(document).ready(function(){
                 $("#code").css("border","solid");
                 $("#code").css("border-color","#55efc4");
                 setTimeout(function(){
-                    // window.location.href = 'https://claudiojrsx.github.io/card-automation/teste.html';
-                    window.location.href = 'C:\\TrabMatheus\\card-automation-main\\card-automation-main\\teste.html';
+                    window.location.href = 'https://matheus-santos-br.github.io/AutomacaoVeicular/teste.html';
                 },1000);
 
           }).fail(function(){
