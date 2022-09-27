@@ -6,7 +6,7 @@ $(document).ready(function() {
     function(data){
 
         if(!(data == "Sucesso")){
-            window.location.href = 'https://matheus-santos-br.github.io/AutomacaoVeicular/';
+            window.location.href = 'https://matheus-santos-br.github.io/AutomacaoVeicular/index.html';
         }
     });
 });
@@ -100,7 +100,7 @@ $(document).ready(function(){
                 $("#txtPortao2").css("color","#ff4757");
                 $("#txtPortao2").html("Portão 2 fechado");
 
-                window.location.href = 'https://matheus-santos-br.github.io/AutomacaoVeicular/';
+                window.location.href = 'https://matheus-santos-br.github.io/AutomacaoVeicular/index.html';
             });
     });
     });
