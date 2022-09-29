@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-    $.get("https://20.226.10.110/v1/VerificaToken",
+    $.get("http://20.226.10.110/v1/VerificaToken",
 
     function(data){
 
@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 $(document).ready(function(){
     $("#btnLamp").click(function(){
-        $.get("https://20.226.10.110/v1/objeto/2",
+        $.get("http://20.226.10.110/v1/objeto/2",
 
         function(data){
 
@@ -34,7 +34,7 @@ $(document).ready(function(){
 
 function metodoPortao(botao, texto, id, nomePortao) {
     $(document).ready(function(){
-        $.get("https://20.226.10.110/v1/objeto/" + id,
+        $.get("http://20.226.10.110/v1/objeto/" + id,
 
         function(data){
 
@@ -86,7 +86,7 @@ function metodoPortao(botao, texto, id, nomePortao) {
 
 $(document).ready(function(){
     $("#buttonReset").click(function(){
-        $.get("https://20.226.10.110/v1/reset",
+        $.get("http://20.226.10.110/v1/reset",
         
         function(){
 
