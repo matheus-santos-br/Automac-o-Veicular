@@ -15,7 +15,7 @@ $(document).ready(function(){
         var txt = $("#code").val();       	
 
         var settings = {
-            "url": "https://localhost:5001/v1/token",
+            "url": "https://20.226.10.110/v1/token",
             "method": "POST",
             "timeout": 0,
             "headers": {
