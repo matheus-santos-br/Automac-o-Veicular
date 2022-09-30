@@ -15,7 +15,7 @@ $(document).ready(function(){
         var txt = $("#code").val();       	
 
         var settings = {
-            "url": "https://20.226.10.110/v1/token",
+            "url": "http://20.226.10.110/v1/token",
             "method": "POST",
             "timeout": 0,
             "headers": {
@@ -31,7 +31,7 @@ $(document).ready(function(){
                 $("#code").css("border","solid");
                 $("#code").css("border-color","#55efc4");
                 setTimeout(function(){
-                    window.location.href = 'https://matheus-santos-br.github.io/AutomacaoVeicular/teste.html';
+                    window.location.href = 'http://matheus-santos-br.github.io/AutomacaoVeicular/teste.html';
                 },1000);
 
           }).fail(function(){
